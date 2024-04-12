@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vexame</title>
+
+    <style>
+    .box {
+        /* Propriedades do content */
+        width: 200px;
+        /* Largura do conteúdo */
+        height: 100px;
+        /* Altura do conteúdo */
+        background-color: lightblue;
+        /* Cor de fundo do conteúdo */
+
+        /* Propriedades do padding */
+        padding-top: 20px;
+        /* Espaço no topo dentro da caixa */
+        padding-right: 30px;
+        /* Espaço à direita dentro da caixa */
+        padding-bottom: 20px;
+        /* Espaço embaixo dentro da caixa */
+        padding-left: 30px;
+        /* Espaço à esquerda dentro da caixa */
+
+        /* Propriedades da border */
+        border-width: 5px;
+        /* Largura da borda */
+        border-style: solid;
+        /* Estilo da borda */
+        border-color: darkblue;
+        /* Cor da borda */
+
+        /* Propriedades da margin */
+        margin-top: 10px;
+        /* Espaço no topo fora da caixa */
+        margin-right: 15px;
+        /* Espaço à direita fora da caixa */
+        margin-bottom: 10px;
+        /* Espaço embaixo fora da caixa */
+        margin-left: 15px;
+        /* Espaço à esquerda fora da caixa */
+          /* css flex*/
+        
+    }
+    .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+    }
+    .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+    }
+
+
+</style>
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+        <div class="box">Conteúdo</div>
+
+        <div class="flex-container">
+            <div style="background: lightblue; padding: 10px;">Item 1</div>
+            <div style="background: lightcoral; padding: 10px;">Item 2</div>
+        </div>
+
+        <div class="grid-container">
+            <div style="background: lightgreen; padding: 10px;">Bloco 1</div>
+            <div style="background: lightpink; padding: 10px;">Bloco 2</div>
+        </div>
+
+
+    </main>
+
+    <footer>
+pequena gotica
+    </footer>
+
+
+</body>
+</html>
